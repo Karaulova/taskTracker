@@ -15,20 +15,13 @@
        </listener>
 
         Обрабатывает все запросы. Центральное понятие  -->
-    <servlet>
+    <!--<servlet>
         <servlet-name>Hello</servlet-name>
         <servlet-class>HelloWorld</servlet-class>
-        <load-on-startup>1</load-on-startup>
     </servlet>
 
     <servlet-mapping>
         <servlet-name>Hello</servlet-name>
-        <url-pattern>/print</url-pattern>
-    </servlet-mapping>
-
-    <!--<servlet-mapping>
-        <servlet-name>dispatcher</servlet-name>
-        <url-pattern>/</url-pattern>
-    </servlet-mapping> -->
-
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>-->
 </web-app>
